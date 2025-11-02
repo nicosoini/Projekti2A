@@ -2,13 +2,29 @@
 <html lang="fi">
 <head>
   <meta charset="UTF-8">
-  <title>Bitcoin Price Tracker</title>
+  <title>ArtistiHub</title>
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-  <h1>Bitcoin Price Tracker</h1>
-  <button id="fetchBtn">Hae hinta</button>
-  <div id="result"></div>
+  <img id="logo" src="kuvat/artistihub.png" alt="ArtistiHub">
+
+  <div id="search-section">
+    <label for="artistSelect">Valitse artisti:</label>
+    <select id="artistSelect">
+      <option value=""></option>
+      <option value="The Weeknd">The Weeknd</option>
+      <option value="Taylor Swift">Taylor Swift</option>
+      <option value="Drake">Drake</option>
+      <option value="Playboi Carti">Playboi Carti</option>
+      <option value="Travis Scott">Travis Scott</option>
+      <option value="Ed Sheeran">Ed Sheeran</option>
+      <option value="Kendrick Lamar">Kendrick Lamar</option>
+      <option value="Billie Eilish">Billie Eilish</option>
+    </select>
+  </div>
+
+  <div id="artistInfo"></div>
+  <div id="albums"></div>
 
   <script src="script.js"></script>
 </body>
