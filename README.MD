@@ -49,8 +49,8 @@ Kirjoita lyhyet ohjeet sovelluksen käynnistämiseen ja käyttöön. Esimerkiksi
 
 
 ## Kiitokset
-[LiveFm Api](https://www.last.fm/api)
-Käytimme ChatGPT:tä apuna Apin toiminnallisuuden varmistamiseen, kuten ongelmatilanteessa, jossa emme saaneet apiavainta toimimaan oikein. Pyysimme apua myös muotoilun kanssa, jotta saimme css:ään oikeat elementit, joita muokata.
+- [LiveFm API](https://www.last.fm/api)
+- Käytimme ChatGPT:tä apuna Apin toiminnallisuuden varmistamiseen, kuten ongelmatilanteessa, jossa emme saaneet apiavainta toimimaan oikein. Pyysimme apua myös muotoilun kanssa, jotta saimme css:ään oikeat elementit, joita muokata.
 
 ## Lisenssi
 
