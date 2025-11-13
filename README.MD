@@ -7,7 +7,7 @@ Pääset julkaistuun sovellukseen käsiksi osoitteessa [ArtistiHub](https://albu
 Linkki projektin videoesittelyyn [Nico](), [Simo]()
 
 ## Työn jakautuminen 
-Työskentelimme molemmat niin HTML:n, CSS:n ja scriptin parissa. Teimme työtä samaan aikaan Discordin välityksellä, hyödyntäen LiveShare lisäominaisuutta Visual Studio Codessa. Työhön käytimme yhteensä aikaa noin 8 tuntia. Emme jakaneet osioita erikseen vaan suoritimme samaan aikaan molemmat niin HTML:n, visuaalisen ja scriptipuolen. Tehtävässä käytimme Simon Apiavainta Live.Fm Apiin.
+Työskentelimme molemmat niin HTML:n, CSS:n ja scriptin parissa. Teimme työtä samaan aikaan Discordin välityksellä, hyödyntäen LiveShare lisäominaisuutta Visual Studio Codessa. Työhön käytimme yhteensä aikaa noin 8 tuntia. Emme jakaneet osioita erikseen vaan suoritimme samaan aikaan molemmat niin HTML:n, visuaalisen ja scriptipuolen. Tehtävässä käytimme Simon API-avainta.
 
 ## Oma arvio työstä ja oman osaamisen kehittymisestä:
 Projektissa tuli vahvistettua AJAX-hakujen tekemistä, API-datan käsittelyä ja dynaamista DOM-manipulointia. Opimme myös virheenkäsittelyä ja sitä, miten sovelluksen rakenne kannattaa suunnitella selkeästi ennen koodaamista. Projektin lopputulos toimii paremmin kuin aluksi oletimme, ja koemme että osaaminen nimenomaan JavaScriptin puolella kehittyi eniten.
