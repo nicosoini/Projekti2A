@@ -3,6 +3,7 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+/* Sivun ulkoasu: fontti, värit */
 body {
 	font-family: Arial, sans-serif;
 	background-color:rgb(17, 17, 17);
@@ -10,16 +11,19 @@ body {
 	line-height: 1.6;
 	padding: 20px;
 }
+/* Lomake-elementtien tyylit */
 label {
     font-weight: bold;
     margin-right: 10px;
     color: rgb(204, 204, 204);
 }
+/* Keskitetty pääsisältö */
 .container {
 	max-width: 1000px;
 	margin: 0 auto;
 	padding: 20px;
 }
+/* Logon muotoilu ja keskitys */
 #logo {
 	display: block;
 	margin: 0 auto 20px;
@@ -27,12 +31,13 @@ label {
 	width: 100%;
 	height: auto;
 }
+/* Hakuosion muotoilu */
 #search-section {
 	margin-bottom: 30px;
 	text-align: center;
 }
 
-/* Center paragraphs inside the main container and give them a white background */
+/* Kaikkien pääsisällön p-elementtien keskittäminen, valkoinen tausta ja ulkoasu */
 .container p {
 	display: block;
 	max-width: 800px;
@@ -43,13 +48,12 @@ label {
 	border-radius: 6px;
 	box-shadow: 0 1px 4px rgba(0,0,0,0.08);
 }
-
+/* Artistitietojen muotoilu */
 #artistInfo p {
-	/* slightly different spacing for dynamically inserted artist info if needed */
 	padding: 12px 16px;
 }
 
-/* Albums layout: responsive grid with card styling */
+/* Albumilistan asettelu: responsiivinen grid */
 #albums {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
@@ -57,7 +61,7 @@ label {
 	align-items: start;
 	margin-top: 20px;
 }
-
+/* Albumikorttien tyylit: valkoinen tausta, kulmat ja varjostus */
 #albums .album {
 	background: #ffffff;
 	padding: 12px;
@@ -65,7 +69,7 @@ label {
 	text-align: center;
 	box-shadow: 0 1px 6px rgba(0,0,0,0.06);
 }
-
+/* Albumikuvien ja tekstin muotoilu albumikorteissa */
 #albums .album img {
 	width: 100%;
 	height: auto;
@@ -73,17 +77,18 @@ label {
 	display: block;
 	margin-bottom: 8px;
 }
-
+/* Albumin otsikko */
 #albums .album h4 {
 	margin: 8px 0 4px;
 	font-size: 1rem;
 }
-
+/* Albumin lisäteksti */
 #albums .album p {
 	margin: 0;
 	font-size: 0.9rem;
 	color: #555;
 }
+/* Listaelementtien mutoilu */
 li {
     list-style-type: none;
     padding: 0;
@@ -91,6 +96,7 @@ li {
     max-height: 150px;
     overflow-y: auto;
 }
+/* Napin tyylit ja hover-efekti */
 button {
     padding: 10px 20px;
     background-color: lightgray;
@@ -100,6 +106,7 @@ button:hover {
     background-color: gray;
     color: white;
 }
+/* Otsikoiden muotoilu */
 h2 {
 	text-align: center;
 	color: white;

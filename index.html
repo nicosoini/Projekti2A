@@ -6,11 +6,14 @@
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-<div class="container"> 
+<!-- Sivun pääkontaineri, joka keskittää sisällön ja rajaa maksimileveyden -->
+<div class="container">
+  <!-- Logo --> 
   <img id="logo" src="kuvat/saw.png" alt="ArtistiHub">
-
+  <!-- Hakusektio: artistin valintalista -->
   <div id="search-section">
     <label for="artistSelect">Valitse artisti:</label>
+    <!-- Lista, josta käyttäjä voi valita artistin -->
     <select id="artistSelect">
       <option value=""></option>
       <option value="The Weeknd">The Weeknd</option>
@@ -23,8 +26,9 @@
       <option value="Billie Eilish">Billie Eilish</option>
     </select>
   </div>
-
+  <!-- Artistin info div -->
   <div id="artistInfo"></div>
+  <!-- Albumit div -->
   <div id="albums"></div>
   </div> 
 
