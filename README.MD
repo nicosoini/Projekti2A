@@ -7,12 +7,13 @@ Pääset julkaistuun sovellukseen käsiksi osoitteessa [ArtistiHub](https://albu
 Linkki projektin videoesittelyyn [Nico](), [Simo]()
 
 ## Työn jakautuminen 
-Työskentelimme molemmat niin HTML:n, CSS:n ja scriptin parissa. Teimme työtä samaan aikaan Discordin välityksellä, hyödyntäen LiveShare lisäominaisuutta Visual Studio Codessa. Työhön käytimme yhteensä aikaa noin 8 tuntia, joista suurin osa kului Scriptin parissa.
+Työskentelimme molemmat niin HTML:n, CSS:n ja scriptin parissa. Teimme työtä samaan aikaan Discordin välityksellä, hyödyntäen LiveShare lisäominaisuutta Visual Studio Codessa. Työhön käytimme yhteensä aikaa noin 8 tuntia. Emme jakaneet osioita erikseen vaan suoritimme samaan aikaan molemmat niin HTML:n, visuaalisen ja scriptipuolen. Tehtävässä käytimme Simon Apiavainta Live.Fm Apiin.
 
 ## Oma arvio työstä ja oman osaamisen kehittymisestä:
-Mielestämme suoriuduimme työstä hyvin, vaikka ongelmia oli API:n toiminnallisuuden kanssa. API KEY ei toiminut aluksi emmekä saaneet tietoja sivustolta (LiveFM), kuitenkin tekoälyn avulla saimme avaimen toimimaan oikein ja sovelluksen toimimaan. Lisäksi ongelmia työn aikana toivat elementtien toiminnallisuus, kun alasvetovalikoihin kohdistui bugi, joka avatessaan tiputti muut elementit sivun alaosaan.
+Projektissa tuli vahvistettua AJAX-hakujen tekemistä, API-datan käsittelyä ja dynaamista DOM-manipulointia. Opimme myös virheenkäsittelyä ja sitä, miten sovelluksen rakenne kannattaa suunnitella selkeästi ennen koodaamista. Projektin lopputulos toimii paremmin kuin aluksi oletimme, ja koemme että osaaminen nimenomaan JavaScriptin puolella kehittyi eniten.
 
 ## Palaute opettajalle kurssista sekä itse opetuksesta tähän saakka
+Kurssin tempo on ollut sopiva ja tehtävät loogisesti eteneviä. On ollut hyödyllistä, että projekteissa joutuu oikeasti soveltamaan kaikkea opetettua. Ohjeet olivat selkeitä.
 
 
 
@@ -27,10 +28,11 @@ Mielestämme suoriuduimme työstä hyvin, vaikka ongelmia oli API:n toiminnallis
 - [Lisenssi](#lisenssi)
 
 ## Tietoja sovelluksesta
-Artistihub on sovellus, joka toimii muusikoiden albumitietojen hakukoneena. Kun valitset valikosta artistin, esim. Travis Scott, hakee sovellus datan sivustolta LiveFm ja parsii sen eri div -laatikoihin, kuten artisti(artistInfo) ja albumit(albums). Sovelluksessa käytettävät artistitiedot ovat haetaan suoraan LiveFm sivustolta.
+ArtistiHub hakee valitun artistin tietoja Last.fm:n API:n kautta. Sovellus näyttää artistin lyhyen esittelyn sekä listan suosituimmista albumeista. Albumeilla on painike, jonka kautta käyttäjä voi avata ja sulkea albumin kappalelistan.
+Kaikki tapahtuu dynaamisesti ilman sivun uudelleenlatausta.
 
 ## Kuvakaappaukset
-![kuvankaappaus](image-1.png)
+<img width="531" height="359" alt="image" src="/kuvat/image-1.png" />
 
 
 Kuva: [Nico Soini](https://github.com/nicosoini)
@@ -42,7 +44,7 @@ Käytimme seuraavia teknologioita: `html`, `css`, `Javascript`.
 ## Asennus
 Kirjoita lyhyet ohjeet sovelluksen käynnistämiseen ja käyttöön. Esimerkiksi: 
 - Seuraa Netlify linkkiä sovellukseen, joka sijaitsee ylempänä. 
-- Lataa tiedostot ja avaa index.html selaimessa
+- Lataa projektin tiedostot GitHubista. Avaa kansio koodieditorissa. Avaa index.html selaimessa → sovellus toimii heti. Jos käytät omaa API-avainta, lisää se script.js-tiedostoon muuttujaan apiKey.
 
 
 
