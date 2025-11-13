@@ -32,7 +32,7 @@ ArtistiHub hakee valitun artistin tietoja Last.fm:n API:n kautta. Sovellus näyt
 Kaikki tapahtuu dynaamisesti ilman sivun uudelleenlatausta.
 
 ## Kuvakaappaukset
-<img width="531" height="359" alt="image" src="/kuvat/image-1.png" />
+<img alt="image" src="/kuvat/image-1.png" />
 
 
 Kuva: [Nico Soini](https://github.com/nicosoini)
@@ -49,7 +49,8 @@ Kirjoita lyhyet ohjeet sovelluksen käynnistämiseen ja käyttöön. Esimerkiksi
 
 
 ## Kiitokset
-
+[LiveFm Api](https://www.last.fm/api)
+Käytimme ChatGPT:tä apuna Apin toiminnallisuuden varmistamiseen, kuten ongelmatilanteessa, jossa emme saaneet apiavainta toimimaan oikein. Pyysimme apua myös muotoilun kanssa, jotta saimme css:ään oikeat elementit, joita muokata.
 
 ## Lisenssi
 
