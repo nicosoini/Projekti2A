@@ -4,7 +4,7 @@ Tekijät: Nico Soini, Simo Rönni
 
 ## Verkkolinkit:
 Pääset julkaistuun sovellukseen käsiksi osoitteessa [ArtistiHub](https://6915bb100439c90774c6cd98--marvelous-pithivier-250406.netlify.app/)
-Linkki projektin videoesittelyyn [Nico](), [Simo]()
+Linkki projektin videoesittelyyn [Nico](https://www.youtube.com/watch?v=32eMssQFi7o), [Simo](https://www.youtube.com/watch?v=6TjFDMrttXg)
 
 ## Työn jakautuminen 
 Työskentelimme molemmat niin HTML:n, CSS:n ja scriptin parissa. Teimme työtä samaan aikaan Discordin välityksellä, hyödyntäen LiveShare lisäominaisuutta Visual Studio Codessa. Työhön käytimme yhteensä aikaa noin 8 tuntia. Emme jakaneet osioita erikseen vaan suoritimme samaan aikaan molemmat niin HTML:n, visuaalisen ja scriptipuolen. Tehtävässä käytimme Simon API-avainta.
