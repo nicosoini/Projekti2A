@@ -3,7 +3,7 @@ Music Information App (ArtistiHub).
 Tekijät: Nico Soini, Simo Rönni
 
 ## Verkkolinkit:
-Pääset julkaistuun sovellukseen käsiksi osoitteessa [ArtistiHub]()
+Pääset julkaistuun sovellukseen käsiksi osoitteessa [ArtistiHub](https://albumihub.netlify.app/)
 Linkki projektin videoesittelyyn [Nico](), [Simo]()
 
 ## Työn jakautuminen 
