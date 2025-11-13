@@ -38,7 +38,7 @@ Kaikki tapahtuu dynaamisesti ilman sivun uudelleenlatausta.
 Kuva: [Nico Soini](https://github.com/nicosoini)
 
 ## Teknologiat
-Käytimme seuraavia teknologioita: `html`, `css`, `Javascript`. 
+Käytimme seuraavia teknologioita: `html`, `css`, `Javascript`, `Netlify`, `Last.FM`. `html` Käytimme sivuston perusrakenteen luomiseen, kuten div-elementit artisteille, albumeille jne. Tämän tekemiseen meillä kului aikaa noin 2 tuntia. `css` avulla muokkasimme sivustosta erittäin modernin ja helppokäyttöisen. Lisäsimme oman logon sivustolle myös tuomaan ammattimaisempaa näkymää. Tähän vaiheeseen meillä kului aikaa myös noin 2 tuntia ja käytimme ChatGPT:tä apuna tuomaan elementit muokattavaksi, koska halusimme olla erittäin tarkkoja, että kaikki toimivat. `Last.FM` on projektimme sydän eli API-avain. Tämän avulla haemme dataa [LiveFm API](https://www.last.fm/api) sivustolta eri artisteista, joita tässä tapauksessa olivat mm. Travis Scott, Playboi Carti, Taylor Swift ja The Weeknd. Tuomme datan omalle sivustollemme ja puramme sen eri osoihin, albumit albumidiviin, artistitiedot artistiInfo -diviin, jne. Tähän meillä kului eniten aikaa, koska API-avain ei toiminut aluksi ollenkaan ja pyysimme ChatGPT:ltä apua, joka auttoi meitä saamaan Apin toimimaan oikein. `Javascript` loimme toiminnallisudet Apille, joka hakee elementit HTML:stä ja tuo Last.Fm -apin tiedot niihin. Scriptiin meillä kului aikaa noin 4 tuntia. `Netlify` alustalle on julkaistu valmis sovellus.
 
 
 ## Asennus
@@ -53,4 +53,4 @@ Kirjoita lyhyet ohjeet sovelluksen käynnistämiseen ja käyttöön. Esimerkiksi
 - Käytimme ChatGPT:tä apuna Apin toiminnallisuuden varmistamiseen, kuten ongelmatilanteessa, jossa emme saaneet apiavainta toimimaan oikein. Pyysimme apua myös muotoilun kanssa, jotta saimme css:ään oikeat elementit, joita muokata.
 
 ## Lisenssi
-
+MIT-lisenssi @ [Nico Soini](https://github.com/nicosoini)
